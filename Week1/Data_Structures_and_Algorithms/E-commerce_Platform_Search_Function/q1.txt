@@ -1,0 +1,12 @@
+Big O notation is a mathematical tool used in computer science to describe the
+performance or complexity of an algorithm. Specifically, it describes the upper
+bound of the algorithm's growth rate as the input size ($n$) increases to infinity.
+It helps us answer the question: As our e-commerce catalog grows from 1,000 
+products to 1,000,000 products, how much longer will the search take?
+
+Best-Case Scenario: The target item is found immediately (e.g., it is the very first item we check).
+This is usually O(1) or constant time.
+
+Worst-Case Scenario: The target item is the very last one checked, or it doesn't exist in the database at all, 
+forcing the algorithm to do the maximum amount of work.
+This is the scenario Big O notation usually focuses on.
