@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Setter Injection -->
+    <bean id="myService" class="com.example.MyService" scope="singleton">
+        <property name="serviceName" value="DataProcessor" />
+    </bean>
+
+    <!-- Constructor Injection -->
+    <bean id="myController" class="com.example.MyController" scope="prototype">
+        <constructor-arg ref="myService" />
+    </bean>
+
+</beans>
