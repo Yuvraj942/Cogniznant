@@ -4,19 +4,20 @@ import com.library.repository.BookRepository;
 
 public class BookService {
     
+    // The dependency to be injected
     private BookRepository bookRepository;
 
-    
+    // Setter method for Spring Dependency Injection
     public void setBookRepository(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
 
+    // A simple method to test if injection was successful
     public void manageBooks() {
-        System.out.println("BookService is executing library operations.");
         if (bookRepository != null) {
-            bookRepository.fetchBooks();
+            System.out.println("Dependency Injection successful! BookRepository is wired into BookService.");
         } else {
-            System.out.println("BookRepository is not initialized!");
+            System.out.println("Dependency Injection failed!");
         }
     }
 }
