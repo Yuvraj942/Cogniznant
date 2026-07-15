@@ -1,0 +1,8 @@
+C:\Users\KIIT0001\Documents\GitHub\Cogniznant\Week3\Spring_REST_spring_boot\ex5\src\main\java\com\example\ex5\config\SecurityConfig.java
+C:\Users\KIIT0001\Documents\GitHub\Cogniznant\Week3\Spring_REST_spring_boot\ex5\src\main\java\com\example\ex5\controller\AuthController.java
+C:\Users\KIIT0001\Documents\GitHub\Cogniznant\Week3\Spring_REST_spring_boot\ex5\src\main\java\com\example\ex5\controller\SecureController.java
+C:\Users\KIIT0001\Documents\GitHub\Cogniznant\Week3\Spring_REST_spring_boot\ex5\src\main\java\com\example\ex5\dto\AuthResponse.java
+C:\Users\KIIT0001\Documents\GitHub\Cogniznant\Week3\Spring_REST_spring_boot\ex5\src\main\java\com\example\ex5\dto\LoginRequest.java
+C:\Users\KIIT0001\Documents\GitHub\Cogniznant\Week3\Spring_REST_spring_boot\ex5\src\main\java\com\example\ex5\Ex5Application.java
+C:\Users\KIIT0001\Documents\GitHub\Cogniznant\Week3\Spring_REST_spring_boot\ex5\src\main\java\com\example\ex5\security\JwtAuthenticationFilter.java
+C:\Users\KIIT0001\Documents\GitHub\Cogniznant\Week3\Spring_REST_spring_boot\ex5\src\main\java\com\example\ex5\security\JwtService.java
